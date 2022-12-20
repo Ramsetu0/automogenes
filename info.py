@@ -39,9 +39,9 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "
 
-client = pymongo.MongoClient("mongodb+srv://Yog:bot@cluster0.96yztzl.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
 
-db = client.test
+
+
 
 ")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
